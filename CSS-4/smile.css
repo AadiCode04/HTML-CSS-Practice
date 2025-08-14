@@ -1,0 +1,44 @@
+section{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    padding: 20px;
+}
+
+.yellow{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(211, 194, 44);
+    border-radius: 50%;
+    
+}
+
+
+.eye1 , .eye2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(16, 15, 2);
+    border-radius: 50%;  
+    display: inline-block; 
+    position: absolute; 
+    left: 292px;
+    top: 100px;
+    
+}
+
+.eye2{
+    left:  121px;
+}
+
+
+.mouth{
+
+    width:250px;
+    height: 75px;
+    background-color: red;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    left: 100px;
+    top: 250px ;
+
+}
